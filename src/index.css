@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.search-box {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.article {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+mark {
+  background-color: yellow;
+  font-weight: bold;
+}
