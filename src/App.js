@@ -27,7 +27,7 @@ const ARTICLES = [
   },
 ];
 
-// Count total matches inside all articles
+
 const countMatches = (articles, query) => {
   if (!query) return 0;
 
@@ -73,7 +73,7 @@ function App() {
         onChange={(e) => setQuery(e.target.value)}
       />
 
-      {/* 🔹 Only show TOTAL matches */}
+      
       {query && (
         <div style={{ marginBottom: "15px", fontWeight: "bold" }}>
           Total matches: {countMatches(filtered, query)}
